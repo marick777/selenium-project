@@ -37,19 +37,19 @@ public class BasicNavigations {
         driver.navigate().back();
 
         //Stop execution for 3 seconds
-        Thread.sleep(1000);
+        Thread.sleep(5000);
 
         //User navigate forward() to go forward
         driver.navigate().forward();
 
         //Stop execution for 3 seconds
-        Thread.sleep(1000);
+        Thread.sleep(5000);
 
         //User refreshes the page using navigate.refresh();
         driver.navigate().refresh();
 
         //Stop execution for 3 seconds
-        Thread.sleep(1000);
+        Thread.sleep(5000);
 
         //navigate to google.com using navigate().to();
         driver.navigate().to("https://www.google.com");
